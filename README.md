@@ -40,7 +40,7 @@ To Send DELETE Request:
 HTTPRequester::HTTPDelete($target_url, $params);
 
 ```
-###Example
+### Example
 ```php
 require_once( dirname(__FILE__) . '/HTTPRequester.php' );
 
