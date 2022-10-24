@@ -1,8 +1,17 @@
 # curl-php-request
 PHP cURL GET request and request's body
+PHP cUrl Class makes it easy to send HTTP requests and integrate with web APIs.
 ### Requirements
 
 PHP Curl Class works with PHP 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, and 8.1.
+
+### Installation
+
+To Import PHP Curl Class:
+
+```php
+require_once( dirname(__FILE__) . '/HTTPRequester.php' );
+```
 
 ### Quick Start and Examples
 
@@ -31,6 +40,7 @@ To Send DELETE Request:
 HTTPRequester::HTTPDelete($target_url, $params);
 
 ```
+###Example
 ```php
 require_once( dirname(__FILE__) . '/HTTPRequester.php' );
 
